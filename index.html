@@ -22,7 +22,7 @@
 		
 	</div><!-- header -->
 
-	<div id="container1">
+	<div id="articulos">
 		<h3>Artículos relacionados</h3>
 		<ul class="lista2">
 			<li>Un artículo relacionado</li>
@@ -67,7 +67,7 @@
 		<h3>Funcionamiento de la Web</h3>
 
 		<p>El primer paso consiste en traducir la parte nombre del servidor de la URL en una dirección IP usando la base de datos distribuida de Internet conocida como DNS. Esta dirección IP es necesaria para contactar con el servidor web y poder enviarle paquetes de datos.</p>
-		<p>El siguiente paso es enviar una petición HTTP al servidor web solicitando el recurso. En el caso de una página web típica, primero se solicita el texto HTML y luego es inmediatamente analizado por el navegador, el cual, después, hace peticiones adicionales para los gráficos y otros ficheros que formen parte de la página. Las estadísticas de popularidad de un sitio web normalmente están basadas en el número de páginas vistas o las peticiones de servidor asociadas, o peticiones de fichero, que tienen lugar.</p>
+		<p>El siguiente paso es enviar una petición HTTP al servidor web solicitando el recurso. En el caso de una página web típica, primero se solicita el texto HTML y luego es inmediatamente analizado por el navegador, el cual, después, hace peticiones adicionales para los gráficos y otros ficheros que formen parte de la página. Las estadísticas de popularidad de un sitio web normalmente están basadas en el número de páginas vistas o las peticiones de servidor asociadas, o peticiones de fichero, que tienen l,ugar.</p>
 		<p>Al recibir los ficheros solicitados desde el servidor web, el navegador renderiza la página tal y como se describe en el código HTML, el CSS y otros lenguajes web. Al final se incorporan las imágenes y otros recursos para producir la página que ve el usuario en su pantalla.</p>
 
 		<h3>Estándares web</h3>
@@ -80,8 +80,82 @@
 		</ul>
 		<p>Berners Lee dirige desde 2007 el World Wide Web Consortium (W3C), el cual desarrolla y mantiene esos y otros estándares que permiten a los ordenadores de la Web almacenar y comunicar efectivamente diferentes formas de información.</p>
 
-	</div><!-- container2 -->
+		<h1>Rellene con su informaci&oacute;n</h1>
+	<form>
+		<label for="nombre">Nombre</label><br/>	
+		<input type="text" name="nombre" value="" placeholder="Nombre"><br/>	
+
+		<label for="email">Email</label><br/>	
+		<input type="text" name="email" value="" placeholder="Email"><br/>	
+
+		<label for="empresa">Empresa</label><br/>		
+		<input type="text" name="nombre" value="" placeholder="Empresa"><br/>	
+
+		<label for="nombre">Seleccione</label><br/>		
+		<input type="radio" name="elija" value="soporte"> Soporte <br/>
+		<input type="radio" name="elija" value="contacto"> Contacto general<br/>
+
+
+		<label for="pais">Pa&iacute;s</label> <br/>
+			<select class="pais" name="pais">
+ 			<option value="" selected="selected">- selecciona -</option>
+ 		 	<option value="CostaRica">Costa Rica</option>
+ 			<option value="Japon">Jap&oacute;n</option>
+  			<option value="España">España</option>
+  			<option value="otro">Otro</option>
+		</select><br/>
+
+
+		<label for="mensaje">Su mensaje</label><br/>
+		<textarea class="mensaje" name="mensaje" cols="40" rows="5" placeholder="Escriba su mennsaje"></textarea><br/>
+
+		<input type="button" name="boton" value="Enviar">	
+
+				<h1>Lista de personal</h1>
+
+				<table>
+
+					<tr>
+						<th>Nombre</th>
+						<th>Puesto</th>
+						<th>Experiencia</th>
+						<th>País</th>
+					</tr>
+
+					<tr>
+						<td>Carlos Ramírez</td>
+						<td>Jefe</td>
+						<td>10 años</td>
+						<td>Costa Rica</td>
+
+					</tr>
+
+					<tr>
+						<td>Ginna Solano</td>
+						<td>Gerente</td>
+						<td>8 años</td>
+						<td>Costa Rica</td>
+
+					</tr>
+
+					<tr>
+						<td>Maylo</td>
+						<td>Mascota</td>
+						<td>3 años</td>
+						<td>España</td>
+
+					</tr>
+				</table>
+
+
+
+	</form>
 	
+
+	</div><!-- container2 -->
+
+
+
 </div><!-- wrapper -->
 
 </body>
