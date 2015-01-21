@@ -44,17 +44,17 @@ nav ul li a:hover{
 	color: #999;
 }
 
-#container1{
+#articulos{
 	width: 20%;
 	float: left;
 }
 
-#container1 h3{
+#articulos h3{
 	font-size: 1.9rem;
 	margin-left: 6%;
 }
 
-#container1 ul{
+#articulos ul{
 	list-style: none;
 	margin-left: -5%;
 
@@ -64,7 +64,10 @@ nav ul li a:hover{
 	float: right;
 }
 
-
+table,tr,th,td{
+	border: 1px solid #000;
+	padding: 1rem;
+}
 
 
 
